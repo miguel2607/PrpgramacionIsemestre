@@ -6,7 +6,7 @@ package Ejercicio1;
 public class Cliente extends Persona{
 
 private String ingresos;
-private String historialCrediticio;
+private String historialCrediticio ;
 
 
 

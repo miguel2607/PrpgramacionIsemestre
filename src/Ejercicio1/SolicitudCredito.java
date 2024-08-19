@@ -7,9 +7,9 @@ public class SolicitudCredito {
 
   private Cliente cliente;
     private String tipoCredito = "Personal";
-    private int monto = 250;
-    private String plazo = "3 meses";
-    private double tasaInteres = 0.01 ;
+    private int monto;
+    private String plazo ;
+    private double tasaInteres  ;
 
     public SolicitudCredito(Cliente cliente, String tipoCredito, int monto, String plazo, double tasaInteres) {
         this.cliente = cliente;

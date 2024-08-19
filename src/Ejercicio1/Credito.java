@@ -2,10 +2,10 @@ package Ejercicio1;
 
 public class Credito {
 
-    //  Atributos: solicitudCredito, estado ("aprobado", "rechazado", "pendiente").
 
 
-    private String estado = "pendiente";
+
+    private String estado ;
     private SolicitudCredito solicitudCredit;
 
     public Credito(String estado, SolicitudCredito solicitudCredit) {

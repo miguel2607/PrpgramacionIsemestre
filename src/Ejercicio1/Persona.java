@@ -5,9 +5,9 @@ package Ejercicio1;
 public class Persona {
 
 
-    private String nombre;
-    private String identificacion;
-    private String direccion;
+    private String nombre ;
+    private String identificacion ;
+    private String direccion ;
 
     public Persona(String nombre, String identificacion, String direccion) {
         this.nombre = nombre;
